@@ -22,8 +22,7 @@
     "license": "MIT",
     "dependencies": {
         "core-util-is": "1.x",
-        "request": "2.x",
-        "emits": "3.x"
+        "request": "2.x"
     },
     "devDependencies": {
         "request-debug": "0.2.x",
