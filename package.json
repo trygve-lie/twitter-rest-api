@@ -1,6 +1,6 @@
 {
     "name": "twitter-rest-api",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "A Twitter Rest API client ",
     "main": "lib/main.js",
     "repository": {
@@ -21,7 +21,6 @@
     "author": "Trygve Lie <github@trygve-lie.com>",
     "license": "MIT",
     "dependencies": {
-        "core-util-is": "1.x",
         "request": "2.x"
     },
     "devDependencies": {

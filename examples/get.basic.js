@@ -9,9 +9,12 @@ var TwitterRest = require('../'),
     keys        = JSON.parse(keysString);
 
 
-var Twitter = new TwitterRest();
+var Twitter = new TwitterRest(keys);
 
 
-Twitter.get('users/lookup', {screen_name: 'trygve_lie'}, function (error, response, body) {
+Twitter.get('search/tweets', {q: 'javascript'}, function (error, response, body) {
+    if (error) {
+        return console.log(error);
+    }
     console.log(body);
 });
