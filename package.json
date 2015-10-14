@@ -1,31 +1,31 @@
 {
-    "name": "twitter-rest-api",
-    "version": "0.1.0",
-    "description": "A Twitter Rest API client ",
-    "main": "lib/main.js",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:trygve-lie/twitter-rest-api.git"
-    },
-    "bugs": {
+  "name": "twitter-rest-api",
+  "version": "0.1.0",
+  "description": "A Twitter Rest API client ",
+  "main": "lib/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:trygve-lie/twitter-rest-api.git"
+  },
+  "bugs": {
     "url": "https://github.com/trygve-lie/twitter-rest-api/issues"
-    },
-    "scripts": {
-        "pretest": "jshint ./lib/*.js ./test/*.js",
-        "test": "tap test/*.js"
-    },
-    "keywords": [
-        "twitter",
-        "rest"
-    ],
-    "author": "Trygve Lie <github@trygve-lie.com>",
-    "license": "MIT",
-    "dependencies": {
-        "request": "2.x"
-    },
-    "devDependencies": {
-        "request-debug": "0.2.x",
-        "jshint": "latest",
-        "tap": "latest"
-    }
+  },
+  "scripts": {
+    "pretest": "jshint ./lib/*.js ./test/*.js",
+    "test": "tap test/*.js"
+  },
+  "keywords": [
+    "twitter",
+    "rest"
+  ],
+  "author": "Trygve Lie <github@trygve-lie.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "2.65.0"
+  },
+  "devDependencies": {
+    "request-debug": "0.2.x",
+    "jshint": "latest",
+    "tap": "latest"
+  }
 }
