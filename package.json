@@ -21,7 +21,7 @@
     "author": "Trygve Lie <github@trygve-lie.com>",
     "license": "MIT",
     "dependencies": {
-        "request": "2.70.0"
+        "request": "2.71.0"
     },
     "devDependencies": {
         "request-debug": "0.2.0",
