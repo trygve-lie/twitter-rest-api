@@ -26,6 +26,6 @@
     "devDependencies": {
         "request-debug": "0.2.0",
         "jshint": "2.9.2",
-        "tap": "5.7.2"
+        "tap": "5.7.3"
     }
 }
