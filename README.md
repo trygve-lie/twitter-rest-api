@@ -1,6 +1,6 @@
 # twitter-rest-api
 
-[![Dependencies](https://img.shields.io/david/trygve-lie/twitter-rest-api.svg?style=flat-square)](https://david-dm.org/trygve-lie/twitter-rest-api)
+[![Dependencies](https://img.shields.io/david/trygve-lie/twitter-rest-api.svg?style=flat-square)](https://david-dm.org/trygve-lie/twitter-rest-api) [![Greenkeeper badge](https://badges.greenkeeper.io/trygve-lie/twitter-rest-api.svg)](https://greenkeeper.io/)
 
 
 A [Twitter REST API](https://dev.twitter.com/rest/public) client with stream 
